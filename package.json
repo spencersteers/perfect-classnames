@@ -1,6 +1,6 @@
 {
   "name": "perfect-classnames",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React classnames made Perfect",
   "main": "index.js",
   "author": "Spencer Steers <spencersteers@gmail.com> (https://github.com/spencersteers)",
