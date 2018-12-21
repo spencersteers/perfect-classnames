@@ -1,0 +1,32 @@
+{
+  "name": "perfect-classnames",
+  "version": "0.0.1",
+  "description": "React classnames made Perfect",
+  "main": "index.js",
+  "author": "Spencer Steers <spencersteers@gmail.com> (https://github.com/spencersteers)",
+  "license": "MIT",
+  "homepage": "https://github.com/spencersteers/perfect-classnames",
+  "repository": "github:spencersteers/perfect-classnames",
+  "bugs": "https://github.com/spencersteers/perfect-classnames/issues",
+  "keywords": [
+    "react",
+    "css",
+    "classnames"
+  ],
+  "scripts": {
+    "test": "tap index.test.js --100",
+    "precommit": "lint-staged",
+    "format": "prettier '*.js' --write"
+  },
+  "lint-staged": {
+    "*.{js,md,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "tap": "^12.1.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3"
+  }
+}
